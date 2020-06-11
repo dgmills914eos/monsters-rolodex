@@ -2,7 +2,7 @@ import React from 'react';
 import './card.styles.css';
 
 export const Card = props => (
-    <div className='card-containter'>
+    <div className='card-container'>
         <img alt="monster" src={`https://robohash.org/${props.monster.id}?set=set2&sizze=180x180`}></img>
         <h2>
             {props.monster.name}
